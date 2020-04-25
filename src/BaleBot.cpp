@@ -40,6 +40,7 @@ bool BaleBot::getUpdates(){
   return true;
 }
 bool BaleBot::sendMessage(String text,int chat_id){
+  text.replace(" ","%20"); 
   String url = String(host)+"/bot"+String(token)
   +"/sendMessage?chat_id="+String(chat_id)
   +"&text="+text;
