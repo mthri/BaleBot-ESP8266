@@ -1,6 +1,6 @@
 #include "BaleBot.h"
 //You can find this at this site https://www.grc.com/fingerprints.htm
-const char fingerprint[] PROGMEM = "57 DE C0 B0 5F CB 17 8C A4 F2 31 FC 18 38 33 67 CC 01 53 33";
+const char fingerprint[] PROGMEM = "6E 73 AE 41 9B 11 1E 01 55 9B FE 5F F6 D3 C5 6C A6 E9 AD 64";
 BaleBot::BaleBot(char* _token){
   token = _token;
 }
