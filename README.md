@@ -36,3 +36,5 @@ The downloaded code can be included as a new library into the IDE selecting the 
 ## NOTICE
 Befor using this bot for first time, need to clear eeprom.
 You can do this by **ClearEEPROM** example on library.
+
+*This Library tested with NodeMCU 1.0(ESP-12E Module)*
