@@ -108,7 +108,7 @@ void BaleBot::find_last_update_id(){
       Serial.println(url);
       Serial.println(result);
     }
-    if(message_id == NULL)
+    if(_update_id == NULL)
       break;
     new_update_id = _update_id;
   }
